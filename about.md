@@ -4,12 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am currently working as an AI research engineer at NAVER, South Korea, and have been leading ML teams and projects at several different startups for the past 6 years. I'm specializing in computer vision and have been applying this to everything from medical imaging to satellite image weather predictions. I was also one of the founding members and prior chairman of the biggest AI non-profit in the Nordics, Stockholm AI. I am currently part of the advisory boards at the Silicon Valley based startup SVExA, and the Swedish startup Grace Health.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
