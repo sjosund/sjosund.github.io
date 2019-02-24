@@ -33,7 +33,7 @@ The second thing you need to decide is how to visualize your selected metrics. I
 
 <br>
 ![Results over time](/images/results-tracking/metrics/bias_variance.png)
-*Fig. 2: Bias/variance decomposition per experiment, sorted by descending validation set accuracy.*
+*Fig. 3: Bias/variance decomposition per experiment, sorted by descending validation set accuracy.*
 <br>
 
 
