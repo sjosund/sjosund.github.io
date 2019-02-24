@@ -76,9 +76,7 @@ Compare this to the simple Kibana visualization below, where the same runs are o
 
 While it is certainly possible to track your metrics in a spreadsheet, I strongly recommend setting up a database if you're running a project in a professional setting. Spreadsheet tracking encourages your ML engineers to manually input experiment results, which is not only highly time consuming, but also prone to errors. In a [recent blog post](https://erikbern.com/2019/02/21/headcount-targets-feature-factories-and-when-to-hire-those-mythical-10x-people.html), Erik Bernhardsson shows that companies with plenty of this kind of overhead are better off hiring cheap subpar engineers, and that removing the overhead is essential to getting good bang for your buck when hiring above average engineers. Manual input also scales horribly when you're running a large number of experiments or when you want to store more fine-grained results, for example per-image F1-score for image segmentation. Instead, using a proper database makes it easy to keep track of several different types and levels of metrics, and to seamlessly query and combine them. For example, if you've stored both experiment average accuracy and per-image pixel-wise accuracy, you could easily query:
 
-```
-From the best experiment so far, give me the 100 images from the validation dataset that have the lowest pixel-wise accuracy
-```
+*"From the best experiment so far, give me the 100 images from the validation dataset that have the lowest pixel-wise accuracy."*
 
 For qualitative results, I recommend setting up an object storage in case your model has image outputs, while when working with time-series I'd recommend storing the model output in a database. In a later blog post I will go into detail about how you can set this up.
 
