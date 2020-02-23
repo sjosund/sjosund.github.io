@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Free Side-Project Deployment
+title: Free Side Project Deployment
 ---
 A while ago I came upon [this](https://alexolivier.me/posts/deploy-container-stateless-cheap-google-cloud-run-serverless) 
 great blog post by Alex Olivier that introduced Google Cloud Run, where you can deploy your webservers for next to nothing.
